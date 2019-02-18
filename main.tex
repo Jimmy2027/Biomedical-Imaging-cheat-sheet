@@ -1,4 +1,4 @@
-%modified version of Niklaus Messerli
+%modified version of Niklaus Messerli by Gian Guido Parenza and Hendrik Klug
 %to be printed on A4 borderless with 2 pages on one side
 
 
@@ -139,7 +139,7 @@ $\implies$ sampling range $\leftrightarrow$ resolution \\
 \section{X-Ray}
 \subsection{Generation}
 \begin{wrapfigure}[9]{l}{3cm}
-	\includegraphics[width=3cm]{xrayspec.png}
+	\includegraphics[width=3cm]{xrayspec.PNG}
 \end{wrapfigure}
 \vspace{-5mm}
 $\lambda$ = 10pm - 10nm
@@ -250,7 +250,7 @@ Collimator $\rightarrow$ scinti $\rightarrow$ PMTs $\rightarrow$ PHA and compute
 \subsubsection{Collimators} 
 \begin{wrapfigure}[5]{l}{5.7cm}
 	\vspace{-4mm}
-	\includegraphics[width=6cm]{collimator.png}
+	\includegraphics[width=6cm]{collimator.PNG}
 \end{wrapfigure}
 \grey{Parallel hole} collimator: septa parallel to each other, usually hexagonal. Thickness such that 95\% attenuation. Effective length shortened by this: \grey{$L_\mathrm{eff} = L - 2 / \mu_\mathrm{septa}$}. Resolution = FWHM\{PSF\} = \grey{$\Delta r_\mathrm{col}(x) = \frac{2r_\mathrm{col}}{L_\mathrm{eff}}(x + L_\mathrm{eff})$}.
 \grey{Converging collimator}: holes focused towards body, magnifies images, increases spatial resolution.
@@ -261,7 +261,7 @@ Collimator $\rightarrow$ scinti $\rightarrow$ PMTs $\rightarrow$ PHA and compute
 
 \begin{wrapfigure}[9]{l}{4cm}
 	\vspace{-4mm}
-	\includegraphics[width=4cm]{nuclearImagingCurve.png}
+	\includegraphics[width=4cm]{nuclearImagingCurve.PNG}
 \end{wrapfigure}
 \subsubsection{PMT}: Amplitude of signal $\propto E_\gamma$. To avoid detection of scattered $\gamma$, events binned in MCA and only a range around photopeak are counted. Usually, FWMH of photopeak $\approx$ 14keV $\hat{=} 10\%$, typically 20\% is used. $10^5-10^6$ electrons for each incident photoelectron. \grey{$\frac{\Delta E}{E_0} = 1/\sqrt{p \cdot \bar{N}_\mathrm{ph}}$}, where $p$=prob. that photoelectron is produced at PMT, $\bar{N}_\mathrm{ph}$=\# of photons per $\gamma$-photon, $\Delta E$=FWHM\{photopeak\}
 
@@ -293,7 +293,7 @@ Segmented block of scinti.mat. (e.g. LSO/BGO ($\mu$=0.96/mm)) with reflective ma
 Geometric efficiency: 
 \begin{wrapfigure}[6]{l}{3.7cm}
 	\vspace{-4mm}
-	\includegraphics[width=4cm,]{petfwhm.png}
+	\includegraphics[width=4cm,]{petfwhm.PNG}
 \end{wrapfigure}
 
 \grey{Axial geom. coverage} \grey{$\Omega =4\pi\sin(atan({z \over d}))$}
@@ -366,7 +366,7 @@ p: plasma, f: free (in tissue), ns: non-specific bound, b: bound.\\ For instant 
 
 \begin{wrapfigure}[3]{l}{2cm}
 	\vspace{-4mm}
-	\includegraphics[width=2cm,]{glucose.png}
+	\includegraphics[width=2cm,]{glucose.PNG}
 \end{wrapfigure}
 \subsubsection{Glucose Metabolism} Measured with [${}^{18}$F]-2-fluoro-2-deoxyglucose (FDG). Taken up from plasma into cell ($c_p^* \overset{k_1^*}{\rightharpoondown} c_e^*$). Phosphorylated by hexokinase ($k_2^*$) like glucose (G), but not further by isomerase to fructose. 
 Metabolic rates FDG/G: \grey{$\nu_\mathrm{FDG}^\mathrm{MR} = k_2^*c_e^*(t) \approx \frac{k_1^*k_2^*}{k_{-1}^*+k_2^*}c_p^*(t)$}.
